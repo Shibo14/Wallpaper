@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_margin="5dp"
+    app:cardCornerRadius="10dp">
+    <ImageView
+        android:id="@+id/idImVWallpaper"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ImageView>
+
+</androidx.cardview.widget.CardView>
